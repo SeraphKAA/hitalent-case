@@ -11,7 +11,7 @@ class MessageModel(Base):
     chat_id: Mapped[int] = mapped_column( # возможно уберу
         ForeignKey("chats.id", ondelete="CASCADE"), nullable=False
     )
-    text: Mapped[str] = mapped_column(String(1000), nullable=False)
+    text: Mapped[str] = mapped_column(String(5000), nullable=False)
     created_at: Mapped[datetime] = mapped_column(server_default=func.now())
 
     # Связь с чатом
