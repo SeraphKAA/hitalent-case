@@ -48,18 +48,13 @@ make down
 
 ## Результат
 
-Возможно добавлю если не забуду фотки из сваггера и мейби добавлю еще тесты если нужны будут
-
-Модель чата имеет следующее:
-- что-то
-
-Модель сообщений имеет следующее:
-- что-то
-
-
-
 Все существующие эндпоинты:
-image 1
+![ImageAlt](https://github.com/SeraphKAA/hitalent-case/blob/main/photoes/image_endpoints.png)
 
-somthing n:
-image n
+Тесты:
+![ImageAlt](https://github.com/SeraphKAA/hitalent-case/blob/main/photoes/image_tests.png)
+Кроме обычных тестов также сделал негативные, чтобы проверить на заголовок <=200 и сообщение  <= 5000
+
+
+Изображение когда делал миграции:
+![ImageAlt](https://github.com/SeraphKAA/hitalent-case/blob/main/photoes/image_from_migrations.png)
